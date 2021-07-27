@@ -27,9 +27,9 @@ Incorrect configurations can interrupt data flow and cause errors in values and 
 
     For the generic MQTT component:
     * **ValueField** - The JsonPath expression is valid. With an invalid JsonPath expression, the adapter cannot extract a data value from the MQTT server payload.
-    * **IndexField** - The JsonPath expression is valid. With an invalid JsonPath expression, the adapter cannot extract a timestamp from the MQTT server payload.
+    * **TimeField** - The JsonPath expression is valid. With an invalid JsonPath expression, the adapter cannot extract a timestamp from the MQTT server payload.
     * **DataType** - The correct data type is referenced. An incorrect data type causes data conversion to fail.
-    * **IndexFormat** - The correct time format is referenced. A time format that does not match the value from **IndexField** means that the adapter cannot convert timestamp from the MQTT server payload.
+    * **TimeFormat** - The correct time format is referenced. A time format that does not match the value from **TimeField** means that the adapter cannot convert timestamp from the MQTT server payload.
 
 3. Navigate to [egress endpoints configuration](xref:EgressEndpointsConfiguration). For each configured endpoint, verify that the **Endpoint** and authentication properties are correct.
 

@@ -81,9 +81,9 @@ The query parameter of the generic MQTT component must be specified in the follo
     {
         "Topic": "Sample1",
         "ValueField": "$.Value4",
-        "IndexField": null,
+        "TimeField": null,
         "DataType": "Single",
-        "IndexFormat": "Adapter",
+        "TimeFormat": "Adapter",
         "Selected": false,
         "Name": null,
         "StreamId": "Sample1.$.Value4",
@@ -92,9 +92,9 @@ The query parameter of the generic MQTT component must be specified in the follo
     {
         "Topic": "Sample2",
         "ValueField": "$.Value1",
-        "IndexField": null,
+        "TimeField": null,
         "DataType": "Single",
-        "IndexFormat": "Adapter",
+        "TimeFormat": "Adapter",
         "Selected": false,
         "Name": null,
         "StreamId": "Sample1.$.Value1",
